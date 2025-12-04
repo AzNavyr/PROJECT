@@ -29,7 +29,7 @@ It uses **Python**, **Selenium**, **Pytest**, and **Allure** for UI testing.
 ---
 
 ## 📂 Project Structure / Структура проекта
-
+```
 📂 project/
 │
 ├─ pages/            # Page Objects / Страницы для Page Object Model
@@ -39,7 +39,7 @@ It uses **Python**, **Selenium**, **Pytest**, and **Allure** for UI testing.
 ├─ website/          # Static website files / Файлы веб-сайта для локального тестирования
 ├─ .gitignore
 └─ README.md
-
+```
 
 
 ---
