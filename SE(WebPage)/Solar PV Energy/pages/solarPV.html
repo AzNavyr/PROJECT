@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!--declaration to the browser-->
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Enver"/>
+    <meta name="copyright" content="2024"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!--controls how Internet Explorer(IE) renders the webpage. By using this it makes sure that it is the most up to date version of the browser that renders the webbpage to ensure full functionality-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--sets the width of the page to response to the wifth of the screen on the device accessing the website-->
+    <!--the initial-scale=1 set the initial zoom level when the page is first laoded by the browser-->
+
+    <link rel="stylesheet" type="text/css" href="..//mystyles.css"/>
+    <link rel="stylesheet" type="text/css" href="..//home.css"/>
+    <link rel="stylesheet" type="text/css" href="..//solar.css"/>
+
+    <title>Solar PV Energy</title>
+</head>
+<body>
+<div id="container">
+    <!-- container -->
+    <div class="header">
+        <!-- header -->
+        <img
+                src="../images/banner.jpg"
+                alt="Image of Save energy"
+                title="Save energy"
+        />
+    </div>
+    <!-- /header -->
+</div>
+<div class="navbar">
+    <!-- navbar -->
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <!-- class style makes the current page that is opened appear different on the navbar for accessibility purposes -->
+        <li><a href="solarPV.html">Solar PV</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<section>
+    <h1>Solar PV Energy</h1>
+    <div>
+        <p class="info">
+            By generating your own electricity with an Activ8 PV system, you can expect to save up to 50% on your
+            electricity bills. How Solar PV Works? There are a number of reasons why installing Solar PV makes sense. Saving money, generating your own power
+            as well as doing your bit for the environment.
+        </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="image-column" style="float: left">
+                <img
+                        src="../images/pvsystem.jpg"
+                        alt="Image of PVSystem"
+                        title="PVSystem"
+                        width="600px"
+                        height="400px"
+                />
+            </div>
+            <div class="text-column" style="float: right">
+                <div class="info-box">
+                    <span class="info-title">Generate Electricity.</span>
+                    <p>
+                        Generate your own electricity with your very own Solar PV system, locking in your own
+                        electricity prices for 25+ years.
+                    </p>
+                </div>
+
+                <div class="info-box">
+                    <span class="info-title">Battery Storage.</span>
+                    <p>
+                        Store excess electricity with a battery add-on, allowing you to later consume the stored energy
+                        when your demand exceeds the production of your panels.
+                    </p>
+                </div>
+
+                <div class="info-box">
+                    <span class="info-title">Save on Energy Bills.</span>
+                    <p>
+                        By generating your own electricity with an Activ8 PV system, you can expect to save up to 50% on
+                        your electricity bills.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row">
+
+                <div class="accordion-items" style="float: left">
+                    <h3>Solar Energy System: Key Components and Their Roles</h3>
+                    <button class="accordion-header">Solar Panels
+                    </button>
+                    <div class="accrdion-text">
+                        <p>
+                            Our 335w panels optimally installed on your roof top absorb the sunlight and convert it
+                            to direct current (DC electricity), which is then sent to your solar inverter.
+                        </p>
+                    </div>
+                    <button class="accordion-header">Inverter
+                    </button>
+                    <div class="accrdion-text">
+                        <p>
+                            Both our inverter and hybrid inverters convert the direct current electricity to alternating
+                            current.
+                            DC power is produced from the solar panels and AC power s the power used in your home.
+                        </p>
+                    </div>
+                    <button class="accordion-header">Fuse Board
+                    </button>
+                    <div class="accrdion-text">
+                        <p>
+                            The electricity from the inverter goes through the fuse board in your
+                            home and is the used throughout your home just like electricity from the grid.
+                        </p>
+                    </div>
+                    <button class="accordion-header">Power Your Home
+                    </button>
+                    <div class="accrdion-text">
+                        <p>
+                            The AC electricity generated is distributed from the fuse board throughout
+                            your home and is used
+                            ahead of any grid electricity so that you use all of your green energy first.
+                        </p>
+                    </div>
+
+                    <button class="accordion-header">Export Meter
+                    </button>
+                    <div class="accrdion-text">
+                        <p>
+                            When feed-in tariff is introduced in Ireland, your system will be ready for export
+                            readings to read the electricity you generate and exported back to the grid.
+                        </p>
+                    </div>
+                    <button class="accordion-header">Electricity Grid
+                    </button>
+                    <div class="accrdion-text">
+                        <p>
+                            After the electricity demand of your home has been met with your solar electricity and
+                            excess diverted to hot
+                            water or a battery, only then will excess electricity be fed back into the grid.
+                        </p>
+                    </div>
+                    <script src="../script.js"></script>
+                </div>
+
+
+                <div class="request-form" style="float:right">
+                    <h2>Book Your Consultation</h2>
+                    <form>
+                        <div>
+                            <label for="firstname">First Name:</label>
+                            <input
+                                    type="text"
+                                    id="firstname"
+                                    name="firstname"
+                                    placeholder="Your first name..."
+                            />
+                        </div>
+                        <div>
+                            <label for="surname">Surname:</label>
+                            <input
+                                    type="text"
+                                    id="surname"
+                                    name="surname"
+                                    placeholder="Your surname..."
+                            />
+                        </div>
+                        <div>
+                            <label for="date">Date of Reservation:</label>
+                            <input type="date" id="date" name="date"/>
+                        </div>
+                        <div>
+                            <label for="time">Time of Reservation:</label>
+                            <input type="time" id="time" name="time"/>
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email"/>
+                        </div>
+                        <div>
+                            <label for="notes">Additional Notes:</label>
+                            <textarea
+                                    id="notes"
+                                    name="notes"
+                                    placeholder="Enter any additional information..."
+                                    rows="4"
+                                    cols="50"
+                            ></textarea>
+                        </div>
+                        <input
+                                type="button"
+                                value="Submit Form"
+                                onclick="alert('Your form has been submitted')"
+                        />
+                    </form>
+                </div>
+            </div>
+
+</section>
+
+<div class="footer">
+    <!-- footer -->
+    Solar PV Energy, Athlone, Co Westmeath, Tel: +353 87 312 9858
+</div>
+<!-- /footer -->
+</body>
+</html>
+</html>

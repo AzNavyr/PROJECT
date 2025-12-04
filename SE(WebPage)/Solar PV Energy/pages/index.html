@@ -1,0 +1,156 @@
+<!DOCTYPE html><!--declaration to the browser-->
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Enver">
+    <meta name="copyright" content="2024">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--controls how Internet Explorer(IE) renders the webpage. By using this it makes sure that it is the most up to date version of the browser that renders the webbpage to ensure full functionality-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--sets the width of the page to response to the wifth of the screen on the device accessing the website-->
+    <!--the initial-scale=1 set the initial zoom level when the page is first laoded by the browser-->
+
+
+    <link rel="stylesheet" type="text/css" href="..//mystyles.css">
+    <link rel="stylesheet" type="text/css" href="..//home.css">
+
+
+    <title>Solar PV Energy</title>
+
+</head>
+<body>
+<div id="container">
+    <!-- container -->
+    <div class="header">
+        <!-- header -->
+        <img src="../images/banner.jpg" alt="Image of Save energy" title="Save energy" height="260px" width="1100px">
+    </div>
+    <!-- /header -->
+</div>
+<div class="navbar">
+    <!-- navbar -->
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <!-- class style makes the current page that is opened appear different on the navbar for accessibility purposes -->
+        <li><a href="solarPV.html">Solar PV</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<section>
+    <h1>Solar PV Energy</h1>
+    <div>
+        <p>The health and safety of our customers and our staff is first and foresmost.
+            This video explains the changes we've made.</p>
+
+        <div class="video-container">
+            <video controls autoplay muted>
+                <source src="..//images/covidsafety.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <p>Your Solar Journey.
+            Dealing directly with Ireland leading solar experts from start to finish, SaveEnergy will provide a bespoke
+            solution to your solar needs. This what your journey looks like.
+        </p>
+    </div>
+    <div class="row">
+        <div class="image-column" style="float:left;">
+            <img src="../images/pvsystem.jpg" alt="PVSystem image" title="PVSystem" height="400px" width="700px">
+        </div>
+        <div class="text-column" style="float: right">
+            <div class="info-box">
+                <span class="info-title">Register your Interest.</span>
+                <p>
+                    Register your interest through our
+                    contact form or through our solar agents in selected hardware
+                    stores or SSE Airtricity.
+                </p>
+            </div>
+
+            <div class="info-box">
+                <span class="info-title">Suitability.</span>
+                <p>
+                    Our Solar Team will give you a call to evaluate
+                    feasibility and eligibility to claim your SEAI Solar PV Grant.
+                </p>
+            </div>
+
+            <div class="info-box">
+                <span class="info-title">Solar Home Visit.</span>
+                <p>
+                    One of our solar experts will visit your home
+                    to discuss your options and recommend a bespoke solar solution
+                    for your home, free of charge.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="request-form">
+        <h2>Book Your Consultation</h2>
+        <form>
+            <div>
+                <label for="firstname">First Name:</label>
+                <input
+                        type="text"
+                        id="firstname"
+                        name="firstname"
+                        placeholder="Your first name..."
+                />
+            </div>
+            <div>
+                <label for="surname">Surname:</label>
+                <input
+                        type="text"
+                        id="surname"
+                        name="surname"
+                        placeholder="Your surname..."
+                />
+            </div>
+            <div>
+                <label for="date">Date of Reservation:</label>
+                <input type="date" id="date" name="date"/>
+            </div>
+            <div>
+                <label for="time">Time of Reservation:</label>
+                <input type="time" id="time" name="time"/>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"/>
+            </div>
+            <div>
+                <label for="notes">Additional Notes:</label>
+                <textarea
+                        id="notes"
+                        name="notes"
+                        placeholder="Enter any additional information..."
+                        rows="4"
+                        cols="50"
+                ></textarea>
+            </div>
+            <input
+                    type="button"
+                    value="Submit Form"
+                    onclick="alert('Your form has been submitted')"
+            />
+        </form>
+    </div>
+
+</section>
+
+<div class="footer"> <!-- footer -->
+    Solar PV Energy, Athlone, Co Westmeath, Tel: 456 678 6876
+</div> <!-- /footer -->
+</body>
+</html>

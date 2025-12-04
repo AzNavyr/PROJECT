@@ -1,0 +1,129 @@
+
+.row {
+  display: flex;
+  flex-direction: row; /* Ряд для горизонтального размещения */
+  justify-content: space-between; /* Равномерное пространство между элементами */
+  align-items: flex-start;
+  gap: 20px; /* Расстояние между колонками */
+  padding: 20px;
+  width: 97%; /* Задаёт ширину в 80% от экрана */
+  margin: 0 auto; /* Центрирование на экране */
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+/* Колонка изображения */
+.image-column {
+  box-sizing: border-box;
+  flex: 1; /* Задает изображению адаптивную ширину */
+  min-width: 300px; /* Минимальная ширина для изображения */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-column img {
+  box-sizing: border-box;
+  width: 100%; /* Изображение адаптируется к ширине контейнера */
+  height: 100%; /* Поддерживает пропорции изображения */
+  max-width: 98%; /* Максимальная ширина, не превышающая родительский контейнер */
+  border-radius: 8px; /* Скругленные углы (опционально) */
+}
+
+h4 {
+  font-size: 18px;
+  background-color: #575757;
+}
+
+/* Текстовая колонка */
+.text-column {
+  min-width: 300px; /* Минимальная ширина для мобильных устройств */
+  max-width: 45%; /* Максимальная ширина для более широких экранов */
+  max-height: 30%;
+  padding: 0 10px 10px 10px;
+  margin: 10px;
+}
+
+.info-box {
+  display: grid;
+  width: 80%; /* Ширина во всю ширину контейнера */
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 30px; /* Промежуток между блоками */
+  margin-top: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-box p {
+  font-size: 15px;
+  text-align: left;
+}
+
+.info-title {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline; /* Подчеркивание текста */
+  margin-bottom: 20px;
+}
+
+.request-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto; /* Центрирование формы */
+  clear: both; /* Очистка любых флоатов */
+}
+
+.request-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Строки в колонку */
+  max-width: 400px; /* Максимальная ширина формы */
+  margin: auto; /* Центрирование формы */
+}
+
+form div {
+  margin-bottom: 15px; /* Отступ между строками */
+}
+
+label {
+  margin-bottom: 8px; /* Отступ под меткой */
+  font-weight: bold;
+}
+
+input {
+  padding: 8px; /* Внутренние отступы для полей ввода */
+  border: 1px solid #ccc; /* Цвет границы */
+  border-radius: 4px; /* Скругленные углы */
+  width: 100%; /* Ширина полей ввода */
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 840px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  border: 5px solid #333;
+  border-radius: 10px;
+}

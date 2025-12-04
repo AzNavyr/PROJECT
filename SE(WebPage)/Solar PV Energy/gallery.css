@@ -1,0 +1,90 @@
+/* Контейнер для текста и изображения */
+.row {
+  display: flex;
+  flex-direction: row; /* Ряд для горизонтального размещения */
+  justify-content: space-between; /* Равномерное пространство между элементами */
+  align-items: flex-start;
+  gap: 20px; /* Расстояние между колонками */
+  padding: 20px;
+  width: 97%; /* Задаёт ширину в 80% от экрана */
+  margin: 0 auto; /* Центрирование на экране */
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.descroption-domestic {
+  font-size: 30px;
+}
+
+.gallery-container {
+  width: 80%; /* Ограничение ширины контейнера, можно задать в процентах или пикселях */
+  max-width: 1200px; /* Максимальная ширина контейнера */
+  margin: 0 auto; /* Центрирует контейнер по горизонтали */
+  display: flex;
+  justify-content: center; /* Центрирует содержимое по горизонтали */
+  align-items: center; /* Центрирует содержимое по вертикали, если требуется */
+  padding: 20px; /* Отступы внутри контейнера */
+  flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+  gap: 15px; /* Добавляет промежуток между изображениями */
+  overflow: hidden; /* Скрываем переполнение */
+}
+
+.gallery-container img {
+  display: block; /* Убирает поведение строчных элементов */
+  max-width: 100%; /* Ограничивает ширину изображения до 100% родительского контейнера */
+  height: auto; /* Сохраняет пропорции изображений */
+  flex: 1 1 300px; /* Позволяет изображениям растягиваться и сжиматься */
+}
+
+.gallery {
+  display: flex;
+  overflow: hidden;
+  max-width: 700px;
+  max-height: 600px;
+}
+
+.gallery-image {
+  display: flex;
+  padding: 10px;
+  min-width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.gallery-image1 {
+  display: flex;
+  padding: 10px;
+  min-width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.prev,
+.next {
+  position: absolute;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 150px;
+}
+
+.next {
+  right: 150px;
+}
+
+.element.style {
+  transform: none; /* Убирает любые трансформации */
+}

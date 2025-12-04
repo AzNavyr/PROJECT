@@ -1,0 +1,100 @@
+.request-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 20px; /* Центрирование формы */
+  clear: both; /* Очистка любых флоатов */
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Строки в колонку */
+  max-width: 400px; /* Максимальная ширина формы */
+  margin: auto; /* Центрирование формы */
+}
+
+form div {
+  margin-bottom: 15px; /* Отступ между строками */
+}
+
+div p {
+    text-indent: 0;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 5px;
+}
+
+label {
+  margin-bottom: 8px; /* Отступ под меткой */
+  font-weight: bold;
+}
+
+input {
+  padding: 8px; /* Внутренние отступы для полей ввода */
+  border: 1px solid #ccc; /* Цвет границы */
+  border-radius: 4px; /* Скругленные углы */
+  width: 100%; /* Ширина полей ввода */
+}
+
+address {
+  display: contents;
+}
+
+.row {
+  display: flex;
+  flex-direction: row; /* Ряд для горизонтального размещения */
+  justify-content: center; /* Равномерное пространство между элементами */
+  align-items: flex-start;
+  gap: 20px; /* Расстояние между колонками */
+  padding: 20px;
+  width: 97%; /* Задаёт ширину в 80% от экрана */
+  margin: 0 auto; /* Центрирование на экране */
+}
+
+h3 {
+  margin: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.request-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.additional-info {
+  display: flex;
+  margin: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.column-info {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 20px; /* Центрирование формы */
+  clear: both; /* Очистка любых флоатов */
+}
+
+.column-info p {
+  margin-left: 30px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+.map iframe {
+  display: flex;
+  padding: 15px;
+}

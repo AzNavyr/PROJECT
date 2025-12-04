@@ -1,0 +1,89 @@
+.container {
+  width: auto;
+  margin: auto;
+}
+
+section {
+  background: rgba(204, 204, 204, 0.26);
+}
+
+body {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/background.jpg");
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+div p {
+  text-indent: 30px;
+  text-align: justify;
+  font-size: 30px;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-variant: small-caps;
+  margin-top: 0;
+  padding-top: 15px;
+}
+
+.header {
+  display: flex;
+  background-color: #333333;
+}
+
+.header img {
+  background-color: rgba(255, 255, 255, 0.55);
+  width: 100%; /* Растягивает изображение на всю ширину экрана */
+  height: auto; /* Автоматически подстраивает высоту для сохранения пропорций */
+  display: block; /* Убирает возможные отступы от изображения */
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background-color: #ffca40;
+  overflow: hidden;
+}
+
+.navbar ul li {
+  flex: 1; /* Делает все элементы одинаковой ширины */
+  text-align: center; /* Центрирует текст внутри каждого элемента */
+}
+
+.navbar ul li a {
+  display: block;
+  padding: 14px 20px; /* Внутренние отступы для кликабельной зоны */
+  color: rgb(26, 24, 24);
+  text-decoration: none;
+  font-size: 25px;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  background-color: #575757; /* Изменение цвета при наведении */
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #ffca40; /* Цвет фона */
+  color: rgb(24, 23, 23); /* Цвет текста */
+  text-align: center; /* Выравнивание текста по центру */
+  padding: 20px; /* Внутренние отступы */
+  position: relative; /* Позиционирование */
+  bottom: 0; /* Выровнять футер по низу контейнера */
+  width: 100%; /* Ширина 100% */
+}

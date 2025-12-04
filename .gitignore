@@ -1,0 +1,77 @@
+# =====================================
+# PYTHON
+# =====================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Cache
+.cache/
+
+# =====================================
+# PYTEST / SELENIUM / ALLURE
+# =====================================
+.pytest_cache/
+
+# Allure artifacts
+allure-results/
+allure-report/
+allure-report.zip
+
+# Selenium drivers (if downloaded locally)
+drivers/
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+
+# Test output (screenshots, logs, videos)
+screenshots/
+logs/
+reports/
+output/
+
+# =====================================
+# IDE / EDITORS
+# =====================================
+
+# PyCharm / IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =====================================
+# OS FILES
+# =====================================
+.DS_Store
+Thumbs.db
+
+# =====================================
+# PERSONAL / OPTIONAL
+# =====================================
+
+# Ignore environment config files
+*.env
+*.local

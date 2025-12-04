@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--declaration to the browser-->
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="author" content="Enver" />
+      <meta name="copyright" content="2024" />
+      <meta name="description" content="" />
+      <meta name="keywords" content="" />
+
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!--controls how Internet Explorer(IE) renders the webpage. By using this it makes sure that it is the most up to date version of the browser that renders the webbpage to ensure full functionality-->
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!--sets the width of the page to response to the wifth of the screen on the device accessing the website-->
+      <!--the initial-scale=1 set the initial zoom level when the page is first laoded by the browser-->
+
+      <link rel="stylesheet" type="text/css" href="..//mystyles.css" />
+      <link rel="stylesheet" type="text/css" href="..//contact.css" />
+
+      <title>Solar PV Energy</title>
+    </head>
+    <body>
+      <div id="container">
+        <!-- container -->
+        <div class="header">
+          <!-- header -->
+          <img
+            src="../images/banner.jpg"
+            alt="Image of Save energy"
+            title="Save energy"
+          />
+        </div>
+        <!-- /header -->
+      </div>
+      <div class="navbar">
+        <!-- navbar -->
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <!-- class style makes the current page that is opened appear different on the navbar for accessibility purposes -->
+          <li><a href="solarPV.html">Solar PV</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <section>
+        <h1>Our contacts</h1>
+
+        <div class="row">
+          <address class="contact-info" style="float: left">
+            <div class="column-info">
+              <h3>Generate Electricity</h3>
+              <p class="additional-info">
+                To order a callback, fill in your details in the "Call Request"
+                form and we will call you back or call us back.
+              </p>
+              <p>
+                <span class="icon">🏢</span>Solar PV<br />
+                Athlone Co. Westmeath C3CM+Q5<br />
+                Retreat Rd, Collegeland
+              </p>
+              <p>
+                <span class="icon">📞</span>Phone:
+                <a href="tel:+353 87 312 9858">087 312 9858</a>
+              </p>
+              <br />
+              <h3>Battery Storage</h3>
+              <p class="additional-info">
+                Battery Storage For larger, commercial solar projects, contact
+                us today.
+              </p>
+              <p>
+                <span class="icon">📧</span>Email:
+                <a href="mailto:INFO@SAVEENERGY.IE">INFO@SAVEENERGY.IE</a>
+              </p>
+            </div>
+
+            <div class="request-form" style="float: right">
+              <h2>Call Request</h2>
+              <form>
+                <label for="name">Full name</label>
+                <input type="text" id="name" placeholder="Your name" />
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="Your phone" />
+
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Your email (optional)"
+                />
+                <br />
+                <button type="submit">Request call back</button>
+              </form>
+            </div>
+          </address>
+          <br />
+        </div>
+
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19022.404162682502!2d-7.926579199999999!3d53.418393599999995!
+        2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sie!4v1730411074405!5m2!1sru!2sie"
+            width="800"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <div class="footer">
+        <!-- footer -->
+        Solar PV Energy, Athlone, Co Westmeath, Tel: +353 87 312 9858
+      </div>
+      <!-- /footer -->
+    </body>
+  </html>
+</html>

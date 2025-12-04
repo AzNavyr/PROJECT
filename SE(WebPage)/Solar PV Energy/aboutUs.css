@@ -1,0 +1,53 @@
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-variant: small-caps;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+.mission-vision {
+  font-size: 20px;
+}
+
+.our-values {
+  padding: 5px;
+  margin: 5px;
+}
+
+.our-values ul {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: azure;
+}
+
+.values-include {
+  list-style-type: none; /* Убирает маркеры списка */
+  padding: 3px;
+  margin: 15px;
+  display: flex; /* Размещает элементы списка горизонтально */
+  gap: 20px; /* Расстояние между элементами списка */
+}
+
+.values-include li {
+  text-align: justify;
+  font-size: 17px;
+  background-color: #f6ee8c;
+  padding: 5px;
+  margin: 7px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.partners-img {
+  display: flex;
+  justify-content: center;
+}
+
+.partners-img img{
+  padding: 15px;
+  margin: 10px;
+  width: 120px;
+  height: 100px;
+}

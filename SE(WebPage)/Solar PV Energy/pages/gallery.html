@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--declaration to the browser-->
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <html>
+        <head>
+            <meta charset="UTF-8"/>
+            <meta name="author" content="Enver"/>
+            <meta name="copyright" content="2024"/>
+            <meta name="description" content=""/>
+            <meta name="keywords" content=""/>
+
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <!--controls how Internet Explorer(IE) renders the webpage. By using this it makes sure that it is the most up to date version of the browser that renders the webbpage to ensure full functionality-->
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <!--sets the width of the page to response to the wifth of the screen on the device accessing the website-->
+            <!--the initial-scale=1 set the initial zoom level when the page is first laoded by the browser-->
+             
+            <link rel="stylesheet" type="text/css" href="..//mystyles.css"/>
+            <link rel="stylesheet" type="text/css" href="../gallery.css"/>
+
+            <title>Solar PV Energy</title>
+        </head>
+        <body>
+            <div id="container">
+            <!-- container -->
+                <div class="header">
+                    <!-- header -->
+                    <img
+                            src="../images/banner.jpg"
+                            alt="Image of Save energy"
+                            title="Save energy"
+                    />
+                </div>
+            <!-- /header -->
+            </div>
+            <div class="navbar">
+            <!-- navbar -->
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <!-- class style makes the current page that is opened appear different on the navbar for accessibility purposes -->
+                    <li><a href="solarPV.html">Solar PV</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <section>
+                <h1>Domestic retro</h1>
+                <div class="descroption-domestic">
+                    <p>See photos of our domestic retrofit installations,
+                        where we install Solar PV systems on homes already built,
+                        with a lot of our customers eligible for the SEAI grant,
+                        as their homes were built before 2011. We install on all types of homes,
+                        using different mounting systems for all different roof types.
+                        See a small selection of homes below.</p>
+                </div>
+                    <div class="gallery-container">
+                            <div class="gallery">
+                                <img src="../images/dom1.jpg" alt="Image dom1" class="gallery-image">
+                                <img src="../images/dom2.jpg" alt="Image dom2" class="gallery-image">
+                                <img src="../images/dom3.jpg" alt="Image dom3" class="gallery-image">
+                                <img src="../images/dom4.jpg" alt="Image dom4" class="gallery-image">
+                                <img src="../images/dom5.jpg" alt="Image dom5" class="gallery-image">
+                                <img src="../images/dom6.jpg" alt="Image dom6" class="gallery-image">
+                                <img src="../images/domretrofit1.png" alt="Image domretrofit1" class="gallery-image">
+                                <img src="../images/domretrofit2.jpg" alt="Image domretrofit1" class="gallery-image">
+                            </div>
+                            <button class="prev" onclick="prevImage('.gallery-image')">❮</button>
+                            <button class="next" onclick="nextImage('.gallery-image')">❯</button>
+                        <script src="../script.js"></script>
+                    </div>
+                    </div>
+
+                        <h1>Commercial</h1>
+                        <div class="descroption-domestic"
+                        >
+                            <p>Having built up a reputation as Irelands Solar Experts through the domestic market,
+                                we moved into commercial installations over 8 years ago and now specialise
+                                in delivering both small and large-scale Solar PV installations with a network
+                                of established commercial partners.
+                                </p>
+                        </div>
+
+                <div class="gallery-container">
+                            <div class="gallery">
+                                <img src="../images/comm1.jpg" alt="Image comm1" class="gallery-image1">
+                                <img src="../images/comm2.jpg" alt="Image comm2" class="gallery-image1">
+                                <img src="../images/comm3.jpg" alt="Image comm3" class="gallery-image1">
+                                <img src="../images/comm4.jpg" alt="Image comm4" class="gallery-image1">
+                                <img src="../images/comm5.jpg" alt="Image comm5" class="gallery-image1">
+                                <img src="../images/comm6.jpg" alt="Image comm6" class="gallery-image1">
+                            </div>
+                            <button class="prev" onclick="prevImage('.gallery-image1')">❮</button>
+                            <button class="next" onclick="nextImage('.gallery-image1')">❯</button>
+                    <script src="../script.js"></script>
+                </div>
+            </section>
+
+            <div class="footer"><!-- footer -->
+                Solar PV Energy, Athlone, Co Westmeath, Tel: +353 87 312 9858
+            </div><!-- /footer -->
+        </body>
+    </html>
+</html>
